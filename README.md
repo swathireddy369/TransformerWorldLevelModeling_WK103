@@ -9,6 +9,6 @@ In Transformer-XL, the dictionary size was reduced to around 42,000 through BPE 
 To further optimize the model, I used the Hugging Face transformers library, which provides many pre-trained transformer models and tokenizers. Specifically, I used the pre-trained BERT tokenizer to convert the input text into tokens. This tokenizer, by design, reduces the dictionary size to 28,996, making the model more efficient while still handling the large-scale Wikitext-103 dataset.
 
 Through the use of BPE, adaptive softmax, and the BERT tokenizer, I was able to keep the model size manageable while maintaining a high level of performance. This combination allowed me to effectively train and evaluate the model using the Wikitext-103 benchmark.
-![alt text](./Screenshot 2024-10-13 124144.png)
-![alt text](./Screenshot 2024-10-13 124525.png)
+![alt text](image1.png)
+![alt text](image2.png)
 
